@@ -6,7 +6,6 @@ export const metadata = {
   title: "Portfolio - Alexis Pernette",
   description:
     "Portfolio d'Alexis Pernette, développeur web basé à Paris. Passionné de code et recherchant une alternance.",
-  themeColor: "#151515",
   verification: {
     google: "xJLOqp7HUQQkwC2zOdyY7rtaqh1tG6FDFC7Z75fyT78",
   },
