@@ -1,3 +1,6 @@
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+
 export default function Header() {
   return (
     <header className="flex flex-col items-center px-4 md:px-8 relative z-10 mt-6 md:mt-12">
@@ -13,7 +16,7 @@ export default function Header() {
             className="text-2xl md:text-3xl hover:text-amber-500 transition-colors"
             aria-label="Github Personel"
           >
-            <i className="ri-github-fill"></i>
+            <FaGithub />
           </a>
         </li>
         <li>
@@ -24,7 +27,7 @@ export default function Header() {
             className="text-2xl md:text-3xl hover:text-amber-500 transition-colors"
             aria-label="linkdin personelle"
           >
-            <i className="ri-linkedin-box-fill"></i>
+            <FaLinkedin />
           </a>
         </li>
       </ul>

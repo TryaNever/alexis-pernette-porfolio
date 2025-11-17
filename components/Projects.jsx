@@ -1,18 +1,20 @@
+import { FaShareSquare } from "react-icons/fa";
+
 export default function Projects() {
   const projects = [
-    {
-      title: "Vacances Méditieux",
-      description:
-        "Application web pour un projet de vacances, réalisée en première année. Interface dynamique et responsive avec animations. Projet évalué et réalisé en collaboration avec Augustin.",
-      link: "https://projet-vancance-meditieux.vercel.app/",
-      tags: ["JavaScript", "SCSS"],
-    },
     {
       title: "Réseau Social React/Express",
       description:
         "Application de réseau social full-stack développée durant ma formation React. Interface moderne et intuitive avec un backend Express robuste. Gestion complète des utilisateurs, posts et interactions.",
       link: "https://mini-social-omega.vercel.app",
       tags: ["React", "Tailwind CSS", "React Router"],
+    },
+    {
+      title: "Vacances Méditieux",
+      description:
+        "Application web pour un projet de vacances, réalisée en première année. Interface dynamique et responsive avec animations. Projet évalué et réalisé en collaboration avec Augustin.",
+      link: "https://projet-vancance-meditieux.vercel.app/",
+      tags: ["JavaScript", "SCSS"],
     },
     {
       title: "Rent-A-Car",
@@ -40,7 +42,7 @@ export default function Projects() {
                   {project.title}
                 </h3>
 
-                <i className="ri-external-link-line text-xl text-amber-500 hover:text-amber-400 transition-colors"></i>
+                <FaShareSquare className="ri-external-link-line text-xl text-amber-500 hover:text-amber-400 transition-colors" />
               </div>
               <p className="text-base text-[#b4b4b4] font-medium mb-4">
                 {project.description}
