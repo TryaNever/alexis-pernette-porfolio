@@ -1,6 +1,6 @@
 import Script from "next/script";
 import Head from "next/head";
-import { GoogleTagManager } from "@next/third-parties/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 export const metadata = {
   title: "Portfolio - Alexis Pernette",
@@ -50,7 +50,7 @@ export default function RootLayout({ children }) {
         </Script>
 
         {children}
-        <GoogleTagManager gtmId="GTM-WPCGZ9JX" />
+        <GoogleAnalytics gaId="G-4N932XC1TN" />
       </body>
     </html>
   );
