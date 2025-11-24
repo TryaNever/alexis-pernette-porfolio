@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
         />
       </head>
 
-      <body className="bg-[#151515] min-h-screen text-white overflow-x-hidden flex flex-col items-center">
+      <body className="relative min-h-screen text-white overflow-x-hidden flex flex-col items-center">
         <Script id="jsonld" type="application/ld+json">
           {`
             {

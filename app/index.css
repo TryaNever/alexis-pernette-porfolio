@@ -3,8 +3,10 @@ body {
 }
 
 .triple-circle {
-  position: absolute;
+  position: fixed;
   pointer-events: none;
+  bottom: -50px;
+  left: -100px;
 }
 .triple-circle::before,
 .triple-circle::after {
